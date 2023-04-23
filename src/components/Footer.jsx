@@ -1,11 +1,14 @@
 import React from "react";
-import Encabezado from "./Encabezado";
+import "../assets/css/footer.css";
 
 const Footer = () => {
   return (
     <div>
       <hr />
-      <h1>agregar boostrap y algun componente</h1>
+      <div className="contenedor-footer-texto">
+        <p>regálame un ☕ para programar </p>
+        <p>galería de movie con ☢ y JSON local 🚧</p>
+      </div>
     </div>
   );
 };

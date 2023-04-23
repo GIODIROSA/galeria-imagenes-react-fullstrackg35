@@ -27,7 +27,7 @@
 }
 
 .title-movie {
-    font-size: 1rem;
+    font-size: 14px;
     font-weight: 500;
     margin: 0;
 }
@@ -36,6 +36,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 70px;
+    margin: 10px 0px;
 }
 
 @media (max-width: 560px) {
@@ -53,7 +55,7 @@
 
     .title-movie {
         font-size: 1.5rem;
-        text-align: center;
+
 
     }
 }
