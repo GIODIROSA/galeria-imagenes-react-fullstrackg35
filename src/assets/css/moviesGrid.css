@@ -40,6 +40,13 @@
     margin: 10px 0px;
 }
 
+.efecto-filter:hover {
+    mix-blend-mode: multiply;
+    filter: blur(0.2rem) grayscale(0.9);
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+}
+
 @media (max-width: 560px) {
 
     .contenedor-cards-movie {

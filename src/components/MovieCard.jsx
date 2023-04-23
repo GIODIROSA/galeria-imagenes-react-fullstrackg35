@@ -19,7 +19,7 @@ const MovieCard = ({ movie, botonAlerta }) => {
         <img
           width={230}
           height={345}
-          className="pre-image-movie"
+          className="pre-image-movie efecto-filter"
           src={imageUrl}
           alt={title}
         />
