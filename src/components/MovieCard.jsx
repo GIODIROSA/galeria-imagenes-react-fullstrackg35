@@ -8,9 +8,9 @@ const MovieCard = ({ movie }) => {
   return (
     <>
       <li className="listado-movie">
-        <img src={imageUrl} alt={title} />
+        <img width={230} height={345} className="pre-image-movie" src={imageUrl} alt={title} />
         <div>
-          <p>{title}</p>
+          <p className="title-movie">{title}</p>
         </div>
       </li>
     </>

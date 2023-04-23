@@ -1,13 +1,13 @@
 .contenedor-movies {
     max-width: 1140px;
-    margin: 0 auto;
-
+    margin: auto;
 }
 
 .contenedor-cards-movie {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
-    gap: 5rem;
+    grid-template-columns: repeat(auto-fill, 230px);
+    gap: 3rem;
+    justify-content: center;
 
 }
 
@@ -17,4 +17,36 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: #666;
     font-weight: 400;
+}
+
+.pre-image-movie {
+    border-radius: 10px;
+    background-color: azure;
+}
+
+.title-movie {
+    font-size: 1rem;
+    font-weight: 500;
+
+}
+
+
+@media (max-width: 560px) {
+
+    .contenedor-cards-movie {
+        grid-template-columns: 90%;
+        padding: 0px;
+
+    }
+
+    .pre-image-movie {
+        width: 100%;
+        height: auto;
+    }
+
+    .title-movie {
+        font-size: 1.5rem;
+        text-align: center;
+
+    }
 }
