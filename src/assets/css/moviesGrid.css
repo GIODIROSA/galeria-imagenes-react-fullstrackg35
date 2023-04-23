@@ -9,6 +9,7 @@
     gap: 3rem;
     justify-content: center;
 
+
 }
 
 
@@ -17,6 +18,7 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: #666;
     font-weight: 400;
+
 }
 
 .pre-image-movie {
@@ -27,9 +29,14 @@
 .title-movie {
     font-size: 1rem;
     font-weight: 500;
-
+    margin: 0;
 }
 
+.contenedor-titulo-boton-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 @media (max-width: 560px) {
 
